@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/f30c430378.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a id="linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+        <a id="github" href="#"><i class="fab fa-github"></i></a>
+        <a id="instagram" href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm <span>Y</span>uvraj <span>S</span>ingh</div>
+        <div class="text-three">Data Scientist</div>
+        <div class="text-four">From Delhi</div>
+      </div>
+      <div class="button" id="Hire">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title" id="abt"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/me.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Its never too late</div>
+          <p>
+            Passionate data scientist with a robust Python foundation, advanced SQL proficiency, and adeptness in data
+            analysis and
+            modeling. Known for innovative problem-solving and driven by a commitment to success, I bring expertise in
+            machine learning
+            programming, data science, and Java development. Leadership experience at IEEE and industry exposure from
+            CodSoft internship
+            underscore my ability to excel in collaborative environments.
+          </p>
+          <div class="button" id="CV">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <section class="Skills" id="Skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="topic">Programming languages</div>
+          <p>Java, (pandas, numpy, matplotlib, seaborn), HTML, CSS, JavaScript</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-magnifying-glass-chart"></i>
+          </div>
+          <div class="topic">Analysis and Visualization</div>
+          <p>Data Analysis, Data Visualization (Tableau, Power BI), Pandas, Matplotlib, Seaborn</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Machine Learning</div>
+          <p>Machine Learning (TensorFlow, Keras), Machine Learning Algorithms, NLP, LLM, Generative AI</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="topic">Data Engineering</div>
+          <p>ETL and Data Warehousing, MySQL</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-clipboard"></i>
+          </div>
+          <div class="topic">Frameworks</div>
+          <p>Flask</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- My Project Section Start -->
+  <section class="Projects" id="Projects">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-language"></i>
+          </div>
+          <div class="topic">Language Translation Model</div>
+          <br>
+          <p>The language translator tool was built using NLP (Natural Language Processing), machine learning, and basic
+            concepts of deep learning. It leveraged transformers, Hugging Face, and dataset libraries. Through effective
+            data cleaning and management, a robust language translator was developed, capable of translating English to
+            Hindi.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-face-laugh-squint"></i>
+          </div>
+          <div class="topic">Sentimental Analysis</div>
+          <br>
+          <p>The Sentiment Analysis project was designed to analyze and understand the sentiments expressed in textual
+            data. This project leverages Natural Language Processing (NLP) techniques and machine learning algorithms to
+            determine the emotional tone of a given piece of text. The primary goal is to classify the sentiment of the
+            text into categories such as positive, negative, or neutral.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-comment"></i>
+          </div>
+          <div class="topic">Blog Creator</div>
+          <br>
+          <p>Streamlining the blog generation process has been made remarkably simple with minimal inputs, resulting in
+            the creation of bespoke and engaging content tailored to a wide range of job profiles. This efficiency is
+            achieved by harnessing essential libraries like Streamlit and Lang chain, facilitating seamless development.
+            Leveraging the formidable capabilities of the Llama 2 language model further enhances this process. By
+            integrating the Llama 2 model through the Transformers class, which is pre-trained on extensive datasets, we
+            ensure the production of insightful blog content with ease.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-film"></i>
+          </div>
+          <div class="topic">Movie Recommend System</div>
+          <br>
+          <p>Utilizing Python, particularly Streamlit, I crafted a personalized movie recommendation platform that
+            interfaces seamlessly with the TMDB API for comprehensive movie data. This endeavor involved leveraging
+            essential Python libraries like Pickle for streamlined data storage and Requests for efficient API calls,
+            ensuring a smooth and responsive system for users to navigate. The platform boasts key features such as
+            Personalized Picks, tailored to individual user preferences, and a sleek interface designed to enhance
+            overall user experience and engagement.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-compass-drafting"></i>
+          </div>
+          <div class="topic">Plot Prediction</div>
+          <br>
+          <p>The Plot Price Prediction project aims to forecast the prices of plots in Bangalore using machine learning
+            techniques. By leveraging historical data and relevant features, this project aims to create a predictive
+            model that estimates the price of real estate plots in Bangalore.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-star-of-life"></i>
+          </div>
+          <div class="topic">OLlama Model</div>
+          <br>
+          <p>I developed a  web application powered by a custom OLlama model, enabling users to input
+            questions and queries and receive answers akin to those generated by OpenAI's model.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Have Any Project?</div>
+        <p>Lets built Together</p>
+        <div class="button" id="Connect">
+          <button>Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text" >
+      <span>Let's be <a href="#">Sucessfull Together</a> | &#169; We can and We will</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
